@@ -6,8 +6,9 @@ class UserInfoScreen extends StatelessWidget {
   final Usuario? usuario;
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
-      body: Center(child: Column(
+    return Scaffold(
+      body: Center(
+          child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text('Informações do usuário'),

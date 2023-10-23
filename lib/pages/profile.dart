@@ -13,7 +13,7 @@ class ProfileScreen extends StatelessWidget {
       body: Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
         const Text('Informações do usuário'),
-        ElevatedButton(onPressed: onClose, child: Text('retornar'))
+        ElevatedButton(onPressed: onClose, child: const Text('retornar'))
       ])),
     );
   }

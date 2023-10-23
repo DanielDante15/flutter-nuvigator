@@ -1,3 +1,4 @@
+// ignore: implementation_imports
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_nuvigator/pages/home_screen.dart';
 import 'package:nuvigator/next.dart';
